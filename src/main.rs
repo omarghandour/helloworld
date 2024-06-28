@@ -6,7 +6,7 @@ fn index() -> &'static str {
 }
 #[get("/hi")]
 fn world() -> &'static str {
-    "Hello, world!"
+    "Hello, world.!"
 }
 
 #[launch]
